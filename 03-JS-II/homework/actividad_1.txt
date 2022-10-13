@@ -1,0 +1,28 @@
+Tema: For
+
+    El for es un buble repetitivo que tiene un [inicio, condicion, final];(Seguido de una sentencia),
+#Inicio: inicializamos la variable index(i) => Que le indicamos desde donde empieza;
+#Condicion: evalua si es verdadero o falso. => Si es verdadero el buble se ejecuta una vez y pregunta de nuevo hasta que la condicion
+    deje de complirce(falso);
+#Final: le podremos decir en cuanto se puede incrementar nuestra variable index(i) => si es en 1 en 1, 2 en 2 etc...
+#Sentencia: es la parte donde se ejecutara si se cumple la condicion... por ej. llenar una lista/Array traer elementos de dicha lista o array, etc.
+
+Ejemplo:
+
+  let tablaDeMultiplicar = []; 
+  
+  for (let i = 0; i < 11; i++) {
+
+    tablaDeMultiplicar.push(6*i);
+  }
+  return tablaDeMultiplicar;
+}
+
+
+Tema: Operadores Logicos
+
+    && => AND = "Y"
+    || => OR  = "O"
+    != => NoEsIgual = "Distinto"
+
+Son herramientas muy utiles para validar una condicion si es verdadera o falsa; 
