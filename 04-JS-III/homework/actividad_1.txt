@@ -1,0 +1,3 @@
+Tema: Arrays
+    El Arrays es una Matris puede contener objertos, string, numeros, etc.
+    podremos recorrer ese array con un "For" y se podra añadir, eliminar, mostrar.
