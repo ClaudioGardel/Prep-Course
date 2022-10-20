@@ -1,0 +1,26 @@
+Tema: Objetos 
+    son contenedores que contienen datos tienen un clave y valor. 
+    poseen propiedad y metodos.
+
+    persona = {                         => Objeto
+
+        nombre: 'Claudio',              => Propiedad
+
+        saludar: function(){            => Metodo
+            console.log('Hola')
+        } 
+    }
+
+Propiedades: son datos referidos al objeto.
+Metodos: son funciones, Acciones que le podrian dar a un objeto. 
+Bucle 'for in': recorre todo el objeto, sintaxis for(inicilizar variable , palabra clave, nombre del objeto) => 
+
+for(let resultado in objeto){
+    console.log( resultado );
+}
+
+Notación de puntos vs notación de corchetes:
+
+notacion de puntos: accedo a las propiedad con un punto Objeto.propiedad; Es rapido el acceso a las propiedad.
+notación de corchetes: demora en acceder a la propiedades ya que su sintaxis es como un arreglo ejemplo.
+    Objeto['propiedad'];
